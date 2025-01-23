@@ -11,6 +11,7 @@ body{
 
 .header{
     background-color: #1F2937;
+    height: 400px;
 }
 
 .headerNav {
@@ -49,16 +50,16 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .headerContentLeft{
-    width: 500px;
     display: flex;
+    flex: 0 0 50%;
     justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 100px;
 }
 
 .headerContentLeftTitle{
@@ -88,9 +89,15 @@ body{
     border-radius: .25rem;
 }
 
-.headerContentRight{
+.headerContentRight{   
     display: flex;
-    width: 600px;
+    justify-content: end;
+    flex: 0 0 50%;
+}
+
+.placeholder{
     justify-content: center;
     align-items: center;
+    background-color: #6d747d;
+    color:#E5E7EB;
 }
