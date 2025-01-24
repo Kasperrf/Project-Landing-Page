@@ -11,15 +11,15 @@ body{
 
 .header{
     background-color: #1F2937;
-    height: 400px;
+    height: 35vh;
 }
 
 .headerNav {
     display: flex;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
     color: white;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .headerLogo{
@@ -42,13 +42,14 @@ body{
 
 .headerMenu ul a{
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .headerContent{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -58,19 +59,22 @@ body{
     flex: 0 0 50%;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     flex-wrap: wrap;
 }
 
 .headerContentLeftTitle{
     font-size: 48px;
+    line-height: 40px;
     color: #f9faf8;
     font-weight: 900;
+    width: 20vw;
 } 
 
 .headerContentLeftText{
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    width: 25vw;
 }
 
 .headerContentLeftButton{
@@ -96,8 +100,65 @@ body{
 }
 
 .placeholder{
+    display: flex;
+    width: 30vw;
     justify-content: center;
     align-items: center;
     background-color: #6d747d;
     color:#E5E7EB;
 }
+
+.randomInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+}
+
+.randomInfoTitle{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.randomInfoImage{
+    display: flex;
+    justify-content:center;
+    width: 35vw;
+    height: auto;
+    flex: 0 0 0;
+}
+
+.imgContainer1,
+.imgContainer2,
+.imgContainer3,
+.imgContainer4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    height: 14vh;
+    width: 7vw;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.quoteContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 20vh;
+}
+
+
