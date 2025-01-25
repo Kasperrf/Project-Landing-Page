@@ -112,7 +112,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 35vh;
 }
 
 .randomInfoTitle{
@@ -128,8 +128,7 @@ body{
 .randomInfoImage{
     display: flex;
     justify-content:center;
-    width: 35vw;
-    height: auto;
+    width: 45vw;
     flex: 0 0 0;
 }
 
@@ -142,6 +141,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    gap: 10px;
 }
 
 .img1,
@@ -157,8 +157,88 @@ body{
 .quoteContainer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    height: 20vh;
+    height: 30vh;
 }
+
+.quote{
+    width: 45vw;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quoteAuthor{
+    display: flex;
+    justify-content: end;
+    width: 40vw;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.callToActionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.callToActionCard{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 13vh;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.callToActionLeft{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    color:#E5E7EB;
+    display: flex;
+    width: 33vw;
+}
+
+.callToActionLeftHeader{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold; 
+    font-size: large;   
+}
+
+.callToActionButton{
+    cursor: pointer;
+    outline: 0;
+    color: #E5E7EB;
+    background-color: transparent;
+    border-color: #E5E7EB;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 2px solid;
+    padding: 4px 30px;
+    font-size: 16px;
+    border-radius: .50rem;
+    margin-right: 5vw;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 7vh;
+    color: #E5E7EB;
+
+}
+
+
+
 
 
